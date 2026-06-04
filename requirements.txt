@@ -1,0 +1,69 @@
+# =========================
+# UI
+# =========================
+streamlit
+
+# =========================
+# PDF + Document Parsing
+# =========================
+pdfminer.six
+pypdf
+unstructured
+
+# =========================
+# Networking (your LLM setup)
+# =========================
+httpx
+requests
+python-dotenv
+
+# =========================
+# LangChain Core
+# =========================
+langchain
+langchain-core
+langchain-community
+
+# =========================
+# LangChain Modules
+# =========================
+langchain-text-splitters
+langchain-openai
+langchain-chroma
+langchain-experimental
+
+# =========================
+# Vector Database
+# =========================
+chromadb
+
+# =========================
+# Embeddings + Models
+# =========================
+tiktoken
+
+# Optional HuggingFace embeddings (useful for reranking + local models)
+sentence-transformers
+
+# =========================
+# Hybrid Search (BM25)
+# =========================
+rank-bm25
+
+# =========================
+# Reranking Models (VERY IMPORTANT for Advanced RAG)
+# =========================
+torch
+transformers
+
+# =========================
+# Performance / Utilities
+# =========================
+numpy
+pandas
+
+# =========================
+# Optional Evaluation Tools (HIGHLY RECOMMENDED)
+# =========================
+ragas
+datasets
